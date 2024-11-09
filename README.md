@@ -1,18 +1,15 @@
-## Getting Started
+# Sistema de Gerenciamento de Senhas
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este projeto é uma aplicação em Java que permite gerar senhas para clientes de forma simples e consultar as senhas geradas. Ele simula o processo de atendimento, onde cada cliente gera uma senha e o sistema armazena e exibe as senhas geradas na ordem em que foram solicitadas.
 
-## Folder Structure
+## Funcionalidades
 
-The workspace contains two folders by default, where:
+- **Gerar uma senha**: O usuário insere seu nome e o sistema gera uma senha única (de 4 dígitos).
+- **Consultar senhas geradas**: Exibe uma lista de todos os clientes e suas respectivas senhas na ordem de geração.
+- **Sair**: Encerra o programa.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Tecnologias Utilizadas
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+- **Java 8 ou superior**: A aplicação foi desenvolvida em Java utilizando conceitos básicos de programação estruturada.
+- **Scanner**: Usado para capturar entradas do usuário.
+- **ArrayList**: Estruturas de dados utilizadas para armazenar os nomes e senhas dos clientes.
