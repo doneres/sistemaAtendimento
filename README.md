@@ -1,4 +1,4 @@
-# Sistema de Gerenciamento de Senhas
+# Sistema de Gerenciamento de Atendimento
 
 Este projeto é uma aplicação em Java que permite gerar senhas para clientes de forma simples e consultar as senhas geradas. Ele simula o processo de atendimento, onde cada cliente gera uma senha e o sistema armazena e exibe as senhas geradas na ordem em que foram solicitadas.
 
